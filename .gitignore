@@ -84,12 +84,31 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
+# .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+out/
+.vs/
+*.user
+*.userprefs
+*.suo
+*.vspscc
+*.vssscc
+*.sln
+TestResults/
+
+# WebView2
+*.WebView2/
+EBWebView/
+
 # Model files (typically large)
 *.pt
 *.pth
 *.bin
 *.onnx
 *.safetensors
+Models/model.onnx
+Models/tokenizer.json
 
 # Logs
 *.log

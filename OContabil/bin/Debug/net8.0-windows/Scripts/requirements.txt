@@ -1,3 +1,0 @@
-gliner2
-pymupdf
-pillow
